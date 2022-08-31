@@ -7,10 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./statics/css/style.css">
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -18,12 +18,24 @@
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
+    <div class="panel panel-info">
+      <div class="panel-body">
+        <p>
+          Roza, a biological researcher, who's lab has partnered with Improbable Beef, a food startup company. <br>
+          <br>
+          Roza has a hypothesis that there's a microorganism that can supply the next best taste, and she believe it can be found in the human body.<br>
+          She hypothesizes tha the ideal bacterial species to maje synthetic beef may be found in someone's the belly button. Roza has sampled the navels of people across the country to identify bacterial species that colonize our belly buttons. <br>
+          Each volunteer's indentity is anonymous, and with this page we can veiw the data that Roza gathered.
+        </p>
+      </div>
+
+    </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
